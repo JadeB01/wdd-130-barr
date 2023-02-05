@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Rowdies&display=swap');
+
 :root {
     --primary-bg: #fcfbfb;
     --secondary-bg: #596154;
@@ -10,12 +12,19 @@
 
 html,
 body {
+    background-color: #fcfbfb;
+    font-family: Roboto, Rowdies, sans-serif;
     margin: 0;
     padding: 0;
 }
 
+h2{
+    margin: 0;
+}
+
 body {
     color:var(--primary-font-color);
+
 }
 
 #content {
@@ -39,6 +48,7 @@ nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -55,12 +65,17 @@ main section.msg {
     color: var(--secondary-font-color);
 }
 
+main section img{
+    box-sizing: border-box;
+}
+
 .button-box {
     text-align: center;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-msg h1,
@@ -76,6 +91,8 @@ main section.msg {
 footer {
     background-color: var(--secondary-bg);
     color: var(--secondary-font-color);
+    padding:25px 50px;
+    margin-top: 200px;
 }
 
 footer p {
@@ -88,4 +105,47 @@ footer p a {
 
 footer p a:hover {
     text-decoration: underline;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.home-title{
+    font-family: 'Rowdies','Roboto', sans-serif;
+    font-size: 3em;
+    margin-top: 10px;
+    color:#d9c2a3;
+}
+.msg{
+    background-color: #6f7364;
+    line-height: 1.5em;
+    padding: 35px;
+
+}
+
+.msg p{
+    padding-bottom: 15px;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+.book, .join{
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding:15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid #d9c2a3
 }
