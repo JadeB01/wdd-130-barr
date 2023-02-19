@@ -2,8 +2,8 @@
 
 :root {
     --primary-bg: #fcfbfb;
-    --secondary-bg: #596154;
-    --section-bg: #dac3a5;
+    --secondary-bg: #219ebc;
+    --section-bg: #ffb703;
 
     --primary-font-color: #000000;
     --secondary-font-color: #ffffff;
@@ -37,11 +37,23 @@ body {
 header {
     background-color: var(--secondary-bg);
     color: var(--secondary-font-color);
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 
-#hero #hero-img {
+#hero {
     width: 100%;
     height: auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top:-100px;
+}
+
+#hero-box{
+    grid-column:1/4;
+    grid-row: 1/3;
+    z-index:-1;
+
 }
 
 nav a {
@@ -52,8 +64,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: black;
-    color: #d9c2a3
+    background-color: white;
+    color: #ffb703
 }
 
 main section {
@@ -81,6 +93,7 @@ main section img{
 #hero-msg h1,
 #hero-msg h4 {
     text-align: center;
+    color: white;
 }
 
 #background {
@@ -115,10 +128,10 @@ footer .social img{
     font-family: 'Rowdies','Roboto', sans-serif;
     font-size: 3em;
     margin-top: 10px;
-    color:#d9c2a3;
+    color:#219ebc;
 }
 .msg{
-    background-color: #6f7364;
+    background-color: #219ebc;
     line-height: 1.5em;
     padding: 35px;
 
@@ -130,11 +143,17 @@ footer .social img{
 
 #logo_link{
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+#logo{
+    width:80px;
 }
 
 .book, .join{
-    background-color: #d9c2a3;
-    color: black;
+    background-color:#219ebc;
+    color: white;
     text-decoration: none;
     font-size: 18px;
     padding:15px 30px;
@@ -144,8 +163,32 @@ footer .social img{
 
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
+    width: 100%;
 }
 
 .card-img{
-    border: 10px solid #d9c2a3
+    border: 10px solid;
+    color: #ffb703;
+    width: 100%;
 }
+
+.mountains{
+    width: 100%;
+    grid-column: 2/7;
+    grid-row:
+}
+
+nav{ 
+    display: flex;
+    justify-content: space-around;
+}
+
+#hero-msg{
+    grid-column:2/3;
+    grid-row:1/2;
+    margin-top: 100px;
+}
+
+
+
+
