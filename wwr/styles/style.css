@@ -14,7 +14,7 @@
 
 }
 
-#logo_link{
+#logo-link{
     padding-top: 5px;
     justify-self: center;
     align-self: center;
@@ -25,6 +25,7 @@
     margin: 0 auto;
     font-family: var(--paragraph-font);
 }
+
 
 nav a {
     text-align: center;
@@ -69,6 +70,8 @@ nav{
 
 }
 
+
+
 .button-box {
     text-align: center;
 }
@@ -94,7 +97,7 @@ main section img{
 }
 
 body {
-    color:var(--accent3-color);
+    background-color:var(--accent5-color);
     font-size:22px;
     margin-left: 5%;
     margin-right: 5%;

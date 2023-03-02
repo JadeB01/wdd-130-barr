@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Rowdies&display=swap');
+
+:root {
+    --primary-color: #5f979e;
+    --secondary-color: #8ea158;
+    --accent1-color: #91bd32;
+    --accent2-color: #9c4f79;
+    --accent3-color: #215128;
+    --accent4-color: #000000;
+    --accent5-color: #ffffff;
+
+    --heading-font:"Rowdies";
+    --paragraph-font: Roboto, Rowdies, sans-serif;
+
+}
